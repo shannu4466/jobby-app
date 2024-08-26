@@ -26,6 +26,7 @@ class JobItemDetails extends Component {
 
   componentDidMount() {
     this.getJobData()
+    window.scrollTo(0, 0)
   }
 
   getFormattedSimilarData = data => ({
